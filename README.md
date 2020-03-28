@@ -1,3 +1,7 @@
+##Agency
+
+A simple landing page with minimal styling and animations using GSAP 3.
+
 To run the project:
 
 ### `yarn start`
