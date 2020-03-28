@@ -1,6 +1,6 @@
 import React, { useEffect, useState }from "react";
 
-import gsapAnimations from './../gsap';
+import homeAnimations from './../animations/homeAnimations'
 
 import IntroOverlay from './../components/introOverlay';
 import Banner from './../components/banner';
@@ -12,7 +12,7 @@ const Home = () => {
   const completeAnimation = () => setAnimationComplete(true)
 
   useEffect(() => {
-    gsapAnimations(completeAnimation)
+    homeAnimations(completeAnimation)
   }, [])
 
   return (

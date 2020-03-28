@@ -3,6 +3,7 @@ import gsap from 'gsap';
 const gsapAnimations = (completeAnimation) =>  {
     // GSAP Timeline
     const tl = gsap.timeline()
+    
     tl.from('.line span', 1.8, {
       y: 100,
       ease: 'power4.out',
