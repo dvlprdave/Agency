@@ -3,7 +3,9 @@ import {Route} from 'react-router-dom'
 import gsap from 'gsap';
 import "./styles/App.scss";
 
+// Components
 import Header from './components/header';
+import Navigation from "./components/navigation";
 
 // Route Pages
 import Home from './pages/home';
@@ -44,6 +46,7 @@ function App() {
           </Route>
         ))}
       </div>
+      <Navigation />
     </>
   );
 }
