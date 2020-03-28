@@ -12,9 +12,6 @@ const Home = () => {
   const completeAnimation = () => setAnimationComplete(true)
 
   useEffect(() => {
-    let vh = window.innerHeight * .01
-    document.documentElement.style.setProperty('--vh', `${vh}px`)
-
     gsapAnimations(completeAnimation)
   }, [])
 
